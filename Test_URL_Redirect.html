@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirection en JavaScript</title>
+    <script type="text/javascript">
+        // Script de redirection
+        function redirectToNewPage() {
+            // URL de la nouvelle page
+            const newUrl = "https://www.youtube.com/watch?v=EE-xtCF3T94&ab_channel=Shaunpants";
+            
+            // Effectuer la redirection
+            window.location.href = newUrl;
+        }
+
+        // Appeler la fonction de redirection après un délai de 1 milliseconde
+        setTimeout(redirectToNewPage, 0.1); // 1 milliseconde
+    </script>
+</head>
+<body>
+</body>
+</html>
